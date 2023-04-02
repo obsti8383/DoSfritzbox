@@ -1,4 +1,4 @@
-// go build && ./ddosfritzbox www.heise.de 30
+// go build && ./dosfritzbox www.heise.de 30
 
 package main
 
@@ -25,7 +25,7 @@ import (
 func main() {
 	if len(os.Args) < 3 {
 		fmt.Println("Error, please supply domain name as first argument and number of worker " +
-			"goroutines as second. Example: ./ddosfritzbox www.heise.de 30")
+			"goroutines as second. Example: ./dosfritzbox www.heise.de 30")
 		os.Exit(1)
 	}
 

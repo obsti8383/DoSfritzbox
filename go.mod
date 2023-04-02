@@ -1,4 +1,4 @@
-module ddosfritzbox
+module dosfritzbox
 
 go 1.20
 
